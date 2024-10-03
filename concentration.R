@@ -99,7 +99,7 @@ p_guille <- p_guille +
              linewidth = 1) +
   theme_classic(base_size = 14) +
   labs(x = "Concentration of D-limonene (mM)",
-       y = "Microbial reduction (log CFU/ml)") +
+       y = "Microbial reduction (log CFU/g)") +
   coord_cartesian(ylim = c(0.8, 2))
 
 p_guille
@@ -206,7 +206,7 @@ p_aure <- p_aure +
              linewidth = 1) +
   theme_classic(base_size = 14) +
   labs(x = "Concentration of D-limonene (mM)",
-       y = "Microbial reduction (log CFU/ml)") +
+       y = "Microbial reduction (log CFU/g)") +
   coord_cartesian(ylim = c(0.8, 2))
 
 p_aure
