@@ -44,7 +44,7 @@ p_guille <- d %>%
                 linewidth = 1) +
   theme_classic(base_size = 14) +
   labs(x = "Washing time (min)",
-       y = "Microbial reduction (log CFU/ml)") +
+       y = "Microbial reduction (log CFU/g)") +
   theme(legend.position = "top",
         legend.title = element_blank()) +
   scale_color_aaas() +
@@ -103,7 +103,7 @@ p_aure <- d %>%
                 linewidth = 1) +
   theme_classic(base_size = 14) +
   labs(x = "Washing time (min)",
-       y = "Microbial reduction (log CFU/ml)") +
+       y = "Microbial reduction (log CFU/g)") +
   theme(legend.position = "top",
         legend.title = element_blank()) +
   scale_color_aaas() +
